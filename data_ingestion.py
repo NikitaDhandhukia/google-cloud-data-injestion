@@ -86,7 +86,7 @@ def run(argv=None):
                         dest='output',
                         required=False,
                         help='Output BQ table to write results to.',
-                        default='lake.job_status')
+                        default='test1.job_status')
 
     # Parse arguments from the command line.
     known_args, pipeline_args = parser.parse_known_args(argv)
